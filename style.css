@@ -1,0 +1,107 @@
+.button{
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Optional: Rounded corners */
+    
+}
+#bgimage1{
+     background-image: url(bgblack1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#td1{
+    color: aliceblue;font-weight: 600;
+} 
+ /* #div2{
+    background-color: lightblue;
+} */
+#div3{
+     background-image: url(Voice-Over-Showreel-980x551.png); 
+     background-size: cover;
+    background-position: center;
+    color: antiquewhite; 
+    font-weight: 400;
+    font-style: italic;
+}
+#voiceover{
+    background-color: red;
+}
+#div4{
+    background-color: pink;
+} 
+#div5{
+     background-color: aquamarine;
+    
+        background-color:lightslategray; 
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+    
+      
+      .social-icon {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      .social-media {
+        margin-top: 10px;
+      }
+    
+      /* Style for the social media icons */
+      .social-media img {
+        display: inline-block;
+        height: 0px; /* Set the height of the icons */
+        width: auto; /* Maintain aspect ratio */
+        margin: 0 1px; /* Add margin between icons */
+      }
+      #span{
+        background-color: orangered;
+      }
+      .h1underline{
+        text-decoration: underline;
+      }
+      /* Media Query for Small Screens (e.g., Android Phones) */
+@media only screen and (max-width: 600px) {
+  .button {
+      padding: 8% 15%;
+      font-size: 5vw;
+      margin: 3% 2%;
+  }
+  
+  #div5 {
+      padding: 8%;
+  }
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .button {
+      padding: 5% 10%;
+      font-size: 3.5vw;
+      margin: 2% 1.5%;
+  }
+  
+  #div5 {
+      padding: 6%;
+  }
+}
+/* Media Query for macOS devices */
+@media only screen and (min-width: 1025px) {
+  .button {
+      padding: 3% 8%;
+      font-size: 1.5vw;
+      margin: 1% 0.5%;
+  }
+  
+  #div5 {
+      padding: 4%;
+  }
+}
